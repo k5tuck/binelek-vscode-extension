@@ -2,6 +2,8 @@
 
 Official VS Code extension for the Binelek Platform. Provides integrated development tools for working with Binelek knowledge graphs, ontologies, and AI services.
 
+**✨ Also works with Cursor!** Cursor is built on VS Code and supports all VS Code extensions out of the box.
+
 ## Features
 
 - **Ontology Explorer** - Browse and explore your knowledge graph entities in the VS Code sidebar
@@ -42,7 +44,12 @@ npm run package
 
 # Install in VS Code
 code --install-extension binelek-platform-1.0.0.vsix
+
+# Install in Cursor (same command works!)
+code --install-extension binelek-platform-1.0.0.vsix
 ```
+
+**Note:** The extension works identically in both VS Code and Cursor since Cursor is built on top of VS Code.
 
 #### From Source (Development)
 
